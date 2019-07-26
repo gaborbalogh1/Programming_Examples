@@ -1,0 +1,12 @@
+﻿<Application x:Class="RoutePlannerApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:bing="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF" 
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <bing:ApplicationIdCredentialsProvider x:Key="MyCredentials" ApplicationId="AjCJRBHkyVtkjF4LpeQPuQrCU-KCMPS-qfqfOH8Zw9XXdyD71sFgQUZu4u1z2ugI" />
+            <Image x:Key="MainIcon" Source="/Resources/images/HearthCross.jpg" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

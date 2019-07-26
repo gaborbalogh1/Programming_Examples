@@ -1,0 +1,252 @@
+<ns0:artworkContentMessage xmlns:ns0="urn:gs1:ecom:artwork_content:xsd:3" xmlns:ns2="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:gs1:ecom:artwork_content:xsd:3 Schemas/gs1/ecom/ArtworkContent.xsd">
+	<ns2:StandardBusinessDocumentHeader>
+		<ns2:HeaderVersion>1.0</ns2:HeaderVersion>
+		<ns2:Sender>
+			<ns2:Identifier Authority="GS1"/>
+			<ns2:ContactInformation>
+				
+				<ns2:Contact>.</ns2:Contact>
+			</ns2:ContactInformation>
+		</ns2:Sender>
+		<ns2:Receiver>
+			<ns2:Identifier Authority="GS1"/>
+			<ns2:ContactInformation>
+				<ns2:Contact>.</ns2:Contact>
+			</ns2:ContactInformation>
+		</ns2:Receiver>
+		<ns2:DocumentIdentification>
+			<ns2:Standard>GS1</ns2:Standard>
+			<ns2:TypeVersion/>
+			<ns2:InstanceIdentifier>DocInstance01</ns2:InstanceIdentifier>
+			<ns2:Type/>
+			<ns2:CreationDateAndTime>2019-04-26T10:37:16</ns2:CreationDateAndTime>
+		</ns2:DocumentIdentification>
+	</ns2:StandardBusinessDocumentHeader>
+
+	<artworkContent>
+		<creationDateTime>2019-04-26T10:37:16</creationDateTime>
+		<documentStatusCode>ORIGINAL</documentStatusCode>
+		<artworkContentIdentification>
+			<entityIdentification>Entity ID</entityIdentification>
+		</artworkContentIdentification>
+		<artworkProjectIdentification>Artwork Project ID</artworkProjectIdentification>
+		<artworkProjectName>New GS1 XML</artworkProjectName>
+		<artworkContentSource>
+			<gln>1234567890128</gln>
+		</artworkContentSource>
+		<artworkContentRecipient>
+			<gln>1234567890128</gln>
+		</artworkContentRecipient>
+
+		<artworkContentPieceOfArt>
+			<pieceOfArtIdentification>
+				<entityIdentification>POA1</entityIdentification>
+			</pieceOfArtIdentification>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>1st line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>2</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>2nd line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>3</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>3rd line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>4</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>4th line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>5</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>5th line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>6</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>6th line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>7</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>7th line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>8</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>8th line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>9</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>9th line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>10</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>10th line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>11</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>copymebackhere</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>12</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>12th line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">DESIGN_GRAPHIC</graphicElementTypeCode>
+				<instanceSequence>13</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceURI>13th line From Golden Veg</referenceURI>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">ICON</graphicElementTypeCode>
+				<instanceSequence>1</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceIdentifier>replaced does work 4</referenceIdentifier>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">ICON</graphicElementTypeCode>
+				<instanceSequence>2</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceIdentifier>replaced does work 1</referenceIdentifier>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">ICON</graphicElementTypeCode>
+				<instanceSequence>3</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceIdentifier>replaced does work 3</referenceIdentifier>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+			<artworkContentGraphicElement>
+				<graphicElementTypeCode codeListURI="urn:gs1:gdd:cl:GraphicElementTypeCode">ICON</graphicElementTypeCode>
+				<instanceSequence>4</instanceSequence>
+				<localeSequence/>
+				<expectedNumberOfOccurrences>1</expectedNumberOfOccurrences>
+				<isContentApproved>FALSE</isContentApproved>
+				<forPlacementOnly>FALSE</forPlacementOnly>
+				<graphicElementReference>
+					<referenceIdentifier>replaced does work 2</referenceIdentifier>
+				</graphicElementReference>
+			</artworkContentGraphicElement>
+
+		</artworkContentPieceOfArt>
+	</artworkContent>
+</ns0:artworkContentMessage>

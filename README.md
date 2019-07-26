@@ -7,3 +7,5 @@ and an excel file in this folder with
 entries in referenceURI and reference Identifier.
 https://illustrator.uservoice.com/forums/908050-sdk-scripting-bugs-and-features/suggestions/32111365-allow-scripts-applescript-javascript-to-retriev
 show the problem with scripting layers in Adobe CC 2018 Illustrator.
+
+C Sharp folder contains the routeplanner app with bing map.
